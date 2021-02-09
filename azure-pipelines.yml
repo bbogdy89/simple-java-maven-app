@@ -10,7 +10,7 @@ trigger:
     - master
   paths:
     include:
-    - '*yml'
+     //azure-pipelines.yml
 
 pool:
   vmImage: 'ubuntu-latest'
