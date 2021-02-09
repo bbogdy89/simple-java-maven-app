@@ -10,7 +10,7 @@ trigger:
     - master
   paths:
     include:
-    - /*yml
+    - '*yml'
 
 pool:
   vmImage: 'ubuntu-latest'
