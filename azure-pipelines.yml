@@ -8,12 +8,10 @@
 trigger:
   branches:
     include:
-    - master/azure-pipelines.yml
-    exclude:
-      - 'jenkins/*'
-      - 'src/*'
-      - '**/*.gitattributes'
-      - '**/README.md'
+    - master
+  paths:
+    include:
+    - 'azure-pipelines.yml'
 
 
 pool:
