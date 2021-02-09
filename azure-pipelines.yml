@@ -13,7 +13,7 @@ trigger:
       - 'jenkins/*'
       - 'src/*'
       - '**/*.gitattributes'
-      - '/README.md'
+      - '**/README.md'
 
 
 pool:
