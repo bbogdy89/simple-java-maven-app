@@ -12,6 +12,8 @@ trigger:
   paths:
     include:
     - 'azure-pipelines.yml'
+    exclude:
+      - 'jenkins/*''
 
 
 
