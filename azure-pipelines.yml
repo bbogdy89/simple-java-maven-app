@@ -8,12 +8,11 @@
 trigger:
   branches:
     include:
-    - master
+    - main
   paths:
     include:
-    - '*/azure-pipelines.yml'
-    exclude:
-      - '*'
+    - 'azure-pipelines.yml'
+
 
 
 pool:
