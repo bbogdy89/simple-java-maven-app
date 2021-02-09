@@ -9,7 +9,7 @@ trigger:
       - main
   paths:
     include:
-      - 'azure-pipelines.yml'
+      - 'azure-pipelines-1.yml'
     
 
 pool:
