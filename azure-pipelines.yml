@@ -5,7 +5,9 @@
 # something
 
 trigger:
-- master/azure-pipelines.yml
+  branches:
+    include:
+    - master/*.yml
 
 pool:
   vmImage: 'ubuntu-latest'
