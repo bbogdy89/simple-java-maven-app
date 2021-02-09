@@ -4,7 +4,6 @@
 # https://aka.ms/yaml 
 # adding a test
 
-
 trigger:
   branches:
     include:
@@ -14,8 +13,6 @@ trigger:
     - 'azure-pipelines.yml'
     exclude:
       - 'jenkins/*'
-
-
 
 pool:
   vmImage: 'ubuntu-latest'
